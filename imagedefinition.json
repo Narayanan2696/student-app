@@ -1,6 +1,6 @@
 [
   {
-    "name": "",
+    "name": "Student-App",
     "imageUri": "309508442844.dkr.ecr.ap-south-1.amazonaws.com/student-app:latest"
   }
 ]
