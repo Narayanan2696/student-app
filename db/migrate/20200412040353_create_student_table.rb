@@ -4,6 +4,7 @@ class CreateStudentTable < ActiveRecord::Migration[5.2]
     	t.string :name
     	t.date :dob
     	t.integer :degree
+    	t.text :url
 
     	t.timestamps
     end

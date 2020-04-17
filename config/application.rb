@@ -36,5 +36,9 @@ module StudentApp
     Dotenv::Railtie.load
 
     HOSTNAME = ENV['HOSTNAME']
+
+    # config.autoload_paths += %W(#{Rails.root}/services)
+
+    config.secret_key_base = "2413721f239561654147ec08c7caf624275daf67043b5b00b5a6cf7f46b2bc640a611606e5da324a6f5f5f2b56e74f07424bc2c9a06c2a88e53df78bc5fd7849"
   end
 end
